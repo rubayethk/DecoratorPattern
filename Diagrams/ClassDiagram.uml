@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="359.25" y="147.0">ConcreteClasses.DarkRoasted</node>
+    <node x="249.0" y="272.0">ConcreteClasses.Whip</node>
+    <node x="545.25" y="147.0">ConcreteClasses.Espresso</node>
+    <node x="143.25" y="158.5">AbstractClasses.BeverageDecorator</node>
+    <node x="0.0" y="272.0">ConcreteClasses.Moca</node>
+    <node x="337.0" y="0.0">AbstractClasses.Beverage</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ConcreteClasses.Espresso" target="AbstractClasses.Beverage">
+      <point x="0.0" y="-37.5" />
+      <point x="616.25" y="122.0" />
+      <point x="508.6666666666667" y="122.0" />
+      <point x="68.66666666666669" y="48.5" />
+    </edge>
+    <edge source="ConcreteClasses.Whip" target="AbstractClasses.BeverageDecorator">
+      <point x="0.0" y="-60.0" />
+      <point x="363.5" y="247.0" />
+      <point x="290.25" y="247.0" />
+      <point x="48.99999999999997" y="26.0" />
+    </edge>
+    <edge source="ConcreteClasses.Moca" target="AbstractClasses.BeverageDecorator">
+      <point x="0.0" y="-60.0" />
+      <point x="114.5" y="247.0" />
+      <point x="192.25" y="247.0" />
+      <point x="-49.0" y="26.0" />
+    </edge>
+    <edge source="ConcreteClasses.DarkRoasted" target="AbstractClasses.Beverage">
+      <point x="0.0" y="-37.5" />
+      <point x="442.25" y="122.0" />
+      <point x="440.0" y="122.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="AbstractClasses.BeverageDecorator" target="AbstractClasses.Beverage">
+      <point x="-2.8421709430404007E-14" y="-26.0" />
+      <point x="241.24999999999997" y="122.0" />
+      <point x="371.3333333333333" y="122.0" />
+      <point x="-68.66666666666669" y="48.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="344.0" y="196.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
